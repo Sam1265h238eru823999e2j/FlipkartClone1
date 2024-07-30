@@ -1,6 +1,119 @@
-body{
-    margin: 0px;
+.Navbar{
+   width: 1599px;
+   height: 126px;
 }
-title{
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body{
+    background-color: #f0f5ff;
+}
+#search{
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+    height: 40px;
+    width: 450px;
+ }
+ #login{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ #login:hover{
+    color: white;
+    background-color: #2a55e5;
+    border-color: #2a55e5;
+    border-radius: 8px;
+ }
+ #cart{
+    display: flex;
+    align-items: center;
+ }
+ #Seller{
+    display: flex;
+    align-items: center;
+ }
+
+ #searchicon{
+    display: flex;
+    background-color: transparent;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    align-items: center;
+   
+ }
+ 
+ #searchbar{
+    display: flex;
+    background-color: #f0f5ff;
+    border-radius: 8px;
+    height: 40px;
+    width: 290px;
+    align-items: center;
     
+ }
+ #menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ }
+ #product{
+    margin-top: 8px;
+    cursor: pointer;
+    background-color: white;
+    width: 1599px;
+    height: 126px;
+ }
+ #Fashion{
+   display: flex;
+   justify-content: space-around;
+ }
+ #Fashion:hover{
+   color: #ad8bf6;
+ }
+ #fash:hover{
+   transform:rotate(180deg);
+ }
+ .Slide{
+   margin-top: 8px;
+   cursor: pointer;
+   background-color: white;
+ }
+.Electronics{
+   background-color: white;
+
+}
+#Bestel{
+   display: flex;
+   justify-content: space-between;
+}
+#headphone{
+   border-width: 0.20px;
+   box-sizing: border-box;
+   border: 0.4px solid #e0e0e0;
+   padding: 6px;
+   margin-top: 8px;
+   cursor: pointer;
+   align-items: center;
+   text-align: center;
+}
+#more{
+   background-color: white;
+}
+#varity{
+   display: flex;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+#Essentials{
+   background-color: white;
+}
+#cell{
+   display: flex;
 }
